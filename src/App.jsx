@@ -1,8 +1,11 @@
 import React from 'react'
+import SignUp from './pages/signup/page'
 
 function App() {
   return (
-    <div>App</div>
+    <main className='bg-[#20252B] w-full h-screen'>
+      <SignUp />
+    </main>
   )
 }
 
